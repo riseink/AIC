@@ -12,6 +12,11 @@
 .amtrav{
 	margin: 50px 0 0 28px;
 	width: 463px;
+	border: solid 1px #283955;
+	height:340px;
+	border-radius: 5px;
+	background-color:white;
+	box-shadow: 0px 0px 20px #888888;
 }
 
 .ahead{
@@ -52,6 +57,8 @@
 	font-weight: bold;
 	text-align: center;
 	border-radius: 5px;
+	width:90%;
+	margin:8px;
 	
 	background: rgb(179,17,53); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(179,17,53,1) 0%, rgba(215,20,64,1) 50%, rgba(179,17,53,1) 100%); /* FF3.6+ */
