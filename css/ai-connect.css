@@ -10,18 +10,30 @@
 /* This id appears on the Master Pages for AI Connect. Not placed directly on any of its content pages*/
 
 .amtrav{
-	margin: 50px 0 0 28px;
-	width: 463px;
+	width: 500px;
+	margin: 5% auto;
+	border: solid 1px #283955;
+	border-radius: 5px;
+	background-color:white;
+	box-shadow: 0px 0px 20px #888888;
+	
+}
+
+.amtrav2{
+	border-radius: 5px;
+	background-color:white;
 }
 
 .ahead{
 	color: #283955;
 	font-size: 40px;
 	text-align: center;
-	margin: 20px 0 0 0;
+	margin: 20px 0 10px 0;
 	font-family: helvetica;
 	font-weight: normal;
 }
+
+
 
 .subcol1{
 	width: 220px;
@@ -44,14 +56,20 @@
 	margin:20px;
 }
 
+body {
+	width: 800px;
+	margin: 0 auto;
+	position: relative;
+}
 .app{
-	padding: 5px;
 	font-size: 30px;
 	font-family: helvetica;
 	color: #FFF;
 	font-weight: bold;
 	text-align: center;
 	border-radius: 5px;
+	width:90%;
+	margin: auto;
 	
 	background: rgb(179,17,53); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(179,17,53,1) 0%, rgba(215,20,64,1) 50%, rgba(179,17,53,1) 100%); /* FF3.6+ */
@@ -79,88 +97,37 @@ a:hover{
 	
 }
 
-#aic-cont {
-width:800px;
-float: left;
-margin: 0 0 0 6px;
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  *zoom: 1;
 }
 
-ul { list-style-type:square; } 
-
-
-
-#aic-title{
-padding: 4px 0;
+hr, hr.vertically {
+    color: #b2b2b2;
+    background-color: #b2b2b2;
 }
 
-#aic-title h1{
-color:#343435; 
-text-align: center;
+hr {
+    width: 100%;
+    height: 0;
 }
 
-#menu-holder{
-margin:20px auto; height: 40px; 
-background-color:#eee; 
-border-top: solid 2px #cc0033;
+hr.vertically {
+    width: 0;
+    height: 100%;
 }
 
-
-
-#aic-main {margin: 0 auto; clear:left; }
-
-
-.aic-cont-left
-{
-padding: 0;
-width: 370px;
-float: left;
+.left{
+	float:left;
 }
 
-
-.aic-cont-right
-{
-padding: 0;
-margin-left:10px;
-float: left;
-}
-
-
-.four-buttons tr td {
-	padding-top: 10px;
-}
-
-
-.clear {clear: both;}
-
-
-#aic-footer {
-width:800px;
-clear:left;
-
-}
-
-
-#aic-footer p 
-{
-text-align:right;
-padding: 8px; }
-
-
-
-#sponsors{
-width: 800px;
-border:solid 1px #ddd;
-}
-
-#sponsors img {
-}
-
-#sponsors-tbl { border-collapse:collapse; border: solid 1px #777; width:99%; }
-
-#sponsors-tbl td { padding: 10px; border: solid 1px #777; }
-
-
-
-.four-buttons a:hover img {
-	border-top: solid 10px #cc0033;
+.right{
+	float:right;
 }
